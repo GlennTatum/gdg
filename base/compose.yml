@@ -4,7 +4,7 @@ services:
     volumes:
       - type: bind
         source: .
-        target: /app
+        target: /app # target container root directory for ng reload
     ports:
       - "8100:8100"
   api:
@@ -12,6 +12,6 @@ services:
     volumes:
       - type: bind
         source: ./server
-        target: /app
+        target: /app # target container root directory for air
     ports:
       - "3000:3000"
