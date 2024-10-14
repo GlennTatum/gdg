@@ -7,3 +7,11 @@ services:
         target: /app
     ports:
       - "8100:8100"
+  api:
+    build: ./server
+    volumes:
+      - type: bind
+        source: ./server
+        target: /app
+    ports:
+      - "3000:3000"
