@@ -9,3 +9,20 @@ Windows:
 
 MacOS:
 1. Download Docker Desktop
+
+### Setup Guide
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+nvm install 20.18.0
+
+git clone https://github.com/GlennTatum/gdg.git
+
+cd gdg/base
+
+npm install -g @ionic/cli
+npm install -g @angular/cli
+npm install
+
+docker compose up
+```
