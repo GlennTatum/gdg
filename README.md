@@ -1,5 +1,6 @@
 # Google Student Developer Groups Workshop 0
 **Get Started**
+![slide 1 image](https://github.com/GlennTatum/gdg/blob/main/gdg-1.png?raw=true)
 
 Windows:
 1. Enable Virtualization (Intel VT-x)
